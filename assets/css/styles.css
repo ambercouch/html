@@ -18,3 +18,10 @@ h1, h2, h3{
 .build-list__item{
   list-style: none;
 }
+.component{
+  background: #fff;
+  padding: 1em;
+}
+.item__comment{
+  padding: 1em;
+}
