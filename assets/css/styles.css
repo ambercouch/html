@@ -20,8 +20,29 @@ h1, h2, h3{
 }
 .component{
   background: #fff;
-  padding: 1em;
+  
 }
 .item__comment{
   padding: 1em;
+}
+.component_image,
+.component_info,
+.component_iprice{
+  padding: 1em;
+}
+/*Grid*/
+.grid{
+  font-size: 0;
+}
+.grid > *{
+  font-size: 16px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.grid__item{
+  display: inline-block;
+}
+.one-third{
+  width: 33.33%;
 }
